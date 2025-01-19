@@ -28,7 +28,6 @@
         <property name="hibernate.dbcp.minIdle">5</property>
         <property name="hibernate.dbcp.maxWaitMillis">-1</property>
         <!-- Mapping File -->
-        <mapping class="com.tutorial.learnjavawithdb.Entities.Barang" />
-        <mapping class="com.tutorial.learnjavawithdb.Entities.Users" />
+        <mapping class="BaseLearning.Entities.Barang" />
     </session-factory>
 </hibernate-configuration>
